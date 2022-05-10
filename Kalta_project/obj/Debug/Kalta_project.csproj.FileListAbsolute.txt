@@ -11,3 +11,16 @@ c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta
 c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.user_controls.cost_control_uc.resources
 c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.user_controls.inventory_uc.resources
 c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.user_controls.management_uc.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\bin\Debug\Kalta_project.exe.config
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.exe
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.pdb
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\bin\Debug\Kalta_project.exe
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\bin\Debug\Kalta_project.pdb
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.dashboard.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.login_form.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.user_controls.cost_control_uc.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.user_controls.inventory_uc.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.user_controls.management_uc.resources
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.csproj.GenerateResource.Cache

@@ -40,5 +40,12 @@ namespace Kalta_project
             management_uc uc = new management_uc();
             addUserControl(uc);
         }
+
+        private void btn_dash_logout_Click(object sender, EventArgs e)
+        {
+            login_form login = new login_form();
+            this.Close();
+            login.Show();
+        }
     }
 }

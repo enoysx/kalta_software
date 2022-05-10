@@ -35,6 +35,7 @@
             this.btn_invent = new System.Windows.Forms.Button();
             this.panel_menu = new System.Windows.Forms.Panel();
             this.panel_container = new System.Windows.Forms.Panel();
+            this.btn_dash_logout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel_menu.SuspendLayout();
             this.SuspendLayout();
@@ -42,6 +43,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Green;
+            this.panel1.Controls.Add(this.btn_dash_logout);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -115,6 +117,23 @@
             this.panel_container.Size = new System.Drawing.Size(815, 310);
             this.panel_container.TabIndex = 6;
             // 
+            // btn_dash_logout
+            // 
+            this.btn_dash_logout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_dash_logout.FlatAppearance.BorderSize = 0;
+            this.btn_dash_logout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_dash_logout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_dash_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dash_logout.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dash_logout.ForeColor = System.Drawing.Color.White;
+            this.btn_dash_logout.Location = new System.Drawing.Point(728, 8);
+            this.btn_dash_logout.Name = "btn_dash_logout";
+            this.btn_dash_logout.Size = new System.Drawing.Size(75, 23);
+            this.btn_dash_logout.TabIndex = 2;
+            this.btn_dash_logout.Text = "Logout";
+            this.btn_dash_logout.UseVisualStyleBackColor = true;
+            this.btn_dash_logout.Click += new System.EventHandler(this.btn_dash_logout_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,6 +147,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel_menu.ResumeLayout(false);
@@ -144,5 +164,6 @@
         private System.Windows.Forms.Button btn_invent;
         private System.Windows.Forms.Panel panel_menu;
         private System.Windows.Forms.Panel panel_container;
+        private System.Windows.Forms.Button btn_dash_logout;
     }
 }

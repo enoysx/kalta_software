@@ -29,59 +29,83 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_form));
-            this.txt_user_login = new System.Windows.Forms.TextBox();
-            this.txt_pass_login = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbl_username = new System.Windows.Forms.Label();
+            this.txt_user_login = new System.Windows.Forms.TextBox();
             this.lbl_password = new System.Windows.Forms.Label();
+            this.txt_pass_login = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
             this.lbl_welcome_Admin = new System.Windows.Forms.Label();
-            this.lbl_copyright = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbl_info_login = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel_login_bg = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_copyright = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.panel_login_bg.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txt_user_login
+            // groupBox1
             // 
-            this.txt_user_login.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_user_login.Location = new System.Drawing.Point(103, 97);
-            this.txt_user_login.Name = "txt_user_login";
-            this.txt_user_login.Size = new System.Drawing.Size(155, 23);
-            this.txt_user_login.TabIndex = 0;
-            // 
-            // txt_pass_login
-            // 
-            this.txt_pass_login.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_pass_login.Location = new System.Drawing.Point(103, 142);
-            this.txt_pass_login.Name = "txt_pass_login";
-            this.txt_pass_login.Size = new System.Drawing.Size(155, 23);
-            this.txt_pass_login.TabIndex = 1;
+            this.groupBox1.BackColor = System.Drawing.Color.ForestGreen;
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.lbl_info_login);
+            this.groupBox1.Controls.Add(this.lbl_welcome_Admin);
+            this.groupBox1.Controls.Add(this.btn_login);
+            this.groupBox1.Controls.Add(this.txt_pass_login);
+            this.groupBox1.Controls.Add(this.lbl_password);
+            this.groupBox1.Controls.Add(this.txt_user_login);
+            this.groupBox1.Controls.Add(this.lbl_username);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.Location = new System.Drawing.Point(260, 7);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(304, 309);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Login Page";
             // 
             // lbl_username
             // 
             this.lbl_username.AutoSize = true;
-            this.lbl_username.Location = new System.Drawing.Point(44, 102);
+            this.lbl_username.Location = new System.Drawing.Point(37, 112);
             this.lbl_username.Name = "lbl_username";
             this.lbl_username.Size = new System.Drawing.Size(56, 13);
             this.lbl_username.TabIndex = 3;
             this.lbl_username.Text = "Username";
             // 
+            // txt_user_login
+            // 
+            this.txt_user_login.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_user_login.Location = new System.Drawing.Point(96, 107);
+            this.txt_user_login.Name = "txt_user_login";
+            this.txt_user_login.Size = new System.Drawing.Size(155, 23);
+            this.txt_user_login.TabIndex = 0;
+            // 
             // lbl_password
             // 
             this.lbl_password.AutoSize = true;
-            this.lbl_password.Location = new System.Drawing.Point(44, 146);
+            this.lbl_password.Location = new System.Drawing.Point(37, 156);
             this.lbl_password.Name = "lbl_password";
             this.lbl_password.Size = new System.Drawing.Size(53, 13);
             this.lbl_password.TabIndex = 4;
             this.lbl_password.Text = "Password";
             // 
+            // txt_pass_login
+            // 
+            this.txt_pass_login.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pass_login.Location = new System.Drawing.Point(96, 152);
+            this.txt_pass_login.Name = "txt_pass_login";
+            this.txt_pass_login.Size = new System.Drawing.Size(155, 23);
+            this.txt_pass_login.TabIndex = 1;
+            // 
             // btn_login
             // 
+            this.btn_login.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_login.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_login.Location = new System.Drawing.Point(47, 198);
+            this.btn_login.Location = new System.Drawing.Point(96, 194);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(211, 23);
+            this.btn_login.Size = new System.Drawing.Size(155, 23);
             this.btn_login.TabIndex = 5;
             this.btn_login.Text = "login";
             this.btn_login.UseVisualStyleBackColor = true;
@@ -91,77 +115,106 @@
             // 
             this.lbl_welcome_Admin.AutoSize = true;
             this.lbl_welcome_Admin.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_welcome_Admin.Location = new System.Drawing.Point(27, 35);
+            this.lbl_welcome_Admin.Location = new System.Drawing.Point(26, 50);
             this.lbl_welcome_Admin.Name = "lbl_welcome_Admin";
             this.lbl_welcome_Admin.Size = new System.Drawing.Size(254, 36);
             this.lbl_welcome_Admin.TabIndex = 6;
             this.lbl_welcome_Admin.Text = "Welcome Admin";
             // 
+            // lbl_info_login
+            // 
+            this.lbl_info_login.AutoSize = true;
+            this.lbl_info_login.ForeColor = System.Drawing.Color.White;
+            this.lbl_info_login.Location = new System.Drawing.Point(93, 233);
+            this.lbl_info_login.Name = "lbl_info_login";
+            this.lbl_info_login.Size = new System.Drawing.Size(0, 13);
+            this.lbl_info_login.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::Kalta_project.Properties.Resources.icons8_fire_exit_24;
+            this.button1.Location = new System.Drawing.Point(223, 270);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 33);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "EXIT";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel_login_bg
+            // 
+            this.panel_login_bg.BackColor = System.Drawing.Color.Transparent;
+            this.panel_login_bg.BackgroundImage = global::Kalta_project.Properties.Resources.more_leaves;
+            this.panel_login_bg.Controls.Add(this.label1);
+            this.panel_login_bg.Controls.Add(this.lbl_copyright);
+            this.panel_login_bg.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel_login_bg.Location = new System.Drawing.Point(0, 0);
+            this.panel_login_bg.Name = "panel_login_bg";
+            this.panel_login_bg.Size = new System.Drawing.Size(254, 326);
+            this.panel_login_bg.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label1.Location = new System.Drawing.Point(12, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(215, 177);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Kalta \r\nSoftware \r\nProject ";
+            // 
             // lbl_copyright
             // 
             this.lbl_copyright.AutoSize = true;
             this.lbl_copyright.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_copyright.Location = new System.Drawing.Point(57, 238);
+            this.lbl_copyright.Location = new System.Drawing.Point(28, 263);
             this.lbl_copyright.Name = "lbl_copyright";
             this.lbl_copyright.Size = new System.Drawing.Size(190, 13);
             this.lbl_copyright.TabIndex = 7;
             this.lbl_copyright.Text = "Kalta Software Project - Copyright 2022";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.lbl_info_login);
-            this.groupBox1.Controls.Add(this.lbl_copyright);
-            this.groupBox1.Controls.Add(this.lbl_welcome_Admin);
-            this.groupBox1.Controls.Add(this.btn_login);
-            this.groupBox1.Controls.Add(this.txt_pass_login);
-            this.groupBox1.Controls.Add(this.lbl_password);
-            this.groupBox1.Controls.Add(this.txt_user_login);
-            this.groupBox1.Controls.Add(this.lbl_username);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(297, 261);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Login Page";
-            // 
-            // lbl_info_login
-            // 
-            this.lbl_info_login.AutoSize = true;
-            this.lbl_info_login.ForeColor = System.Drawing.Color.Red;
-            this.lbl_info_login.Location = new System.Drawing.Point(106, 178);
-            this.lbl_info_login.Name = "lbl_info_login";
-            this.lbl_info_login.Size = new System.Drawing.Size(0, 13);
-            this.lbl_info_login.TabIndex = 8;
-            // 
             // login_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 285);
+            this.BackColor = System.Drawing.Color.Green;
+            this.ClientSize = new System.Drawing.Size(573, 326);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.panel_login_bg);
             this.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "login_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADMIN-LOGIN";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.panel_login_bg.ResumeLayout(false);
+            this.panel_login_bg.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txt_user_login;
-        private System.Windows.Forms.TextBox txt_pass_login;
-        private System.Windows.Forms.Label lbl_username;
-        private System.Windows.Forms.Label lbl_password;
-        private System.Windows.Forms.Button btn_login;
-        private System.Windows.Forms.Label lbl_welcome_Admin;
-        private System.Windows.Forms.Label lbl_copyright;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel panel_login_bg;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbl_info_login;
+        private System.Windows.Forms.Label lbl_copyright;
+        private System.Windows.Forms.Label lbl_welcome_Admin;
+        private System.Windows.Forms.Button btn_login;
+        private System.Windows.Forms.TextBox txt_pass_login;
+        private System.Windows.Forms.Label lbl_password;
+        private System.Windows.Forms.TextBox txt_user_login;
+        private System.Windows.Forms.Label lbl_username;
+        private System.Windows.Forms.Button button1;
     }
 }
 
