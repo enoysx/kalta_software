@@ -1,0 +1,13 @@
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\bin\Debug\Kalta_project.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\bin\Debug\Kalta_project.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\bin\Debug\Kalta_project.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.exe
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.login_form.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.dashboard.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.user_controls.cost_control_uc.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.user_controls.inventory_uc.resources
+c:\users\administrator\documents\visual studio 2015\Projects\Kalta_project\Kalta_project\obj\Debug\Kalta_project.user_controls.management_uc.resources
