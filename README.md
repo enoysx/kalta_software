@@ -13,7 +13,7 @@ Dalam rangka magang penelitian.
 
 
 ---
-## Progres 
+## Progress
 
 **11 Mei 2022**
 
