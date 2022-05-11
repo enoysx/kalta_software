@@ -13,7 +13,7 @@ Dalam rangka magang penelitian.
 
 **Profile Perusahaan**
 
-Kunjungi <a href="https://kalta.co.id/id"> Kalta.co.id <a/>
+Kunjungi <a href="https://kalta.co.id/"> Kalta.co.id <a/>
 
 ---
 
