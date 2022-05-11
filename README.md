@@ -14,5 +14,5 @@
 
 **11 Mei 2022**
 
-Status  :   Masih dalam tahap penelitian, percangan database dan sedikit membuat *interface* sebagai gambaran.
+Status  :   Masih dalam tahap penelitian, perancangan database dan sedikit membuat *interface* sebagai gambaran.
 
