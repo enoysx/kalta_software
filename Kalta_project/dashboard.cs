@@ -16,17 +16,13 @@ namespace Kalta_project
         public dashboard()
         {
             InitializeComponent();
-
-            // cost control user control
-            cost_control_uc uc = new cost_control_uc();
-            addUserControl(uc);
         }
 
         private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
-            panel_container.Controls.Clear();
-            panel_container.Controls.Add(userControl);
+            panel_dash_container.Controls.Clear();
+            panel_dash_container.Controls.Add(userControl);
             userControl.BringToFront();
         }
         private void btn_dash_cost_control_Click(object sender, EventArgs e)
@@ -46,6 +42,11 @@ namespace Kalta_project
             login_form login = new login_form();
             this.Close();
             login.Show();
+        }
+
+        private void dashboard_Load(object sender, EventArgs e)
+        {
+         
         }
     }
 }

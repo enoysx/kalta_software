@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_form));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_exit = new System.Windows.Forms.Button();
             this.lbl_info_login = new System.Windows.Forms.Label();
             this.lbl_welcome_Admin = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
@@ -48,7 +47,6 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.ForestGreen;
-            this.groupBox1.Controls.Add(this.btn_exit);
             this.groupBox1.Controls.Add(this.lbl_info_login);
             this.groupBox1.Controls.Add(this.lbl_welcome_Admin);
             this.groupBox1.Controls.Add(this.btn_login);
@@ -59,27 +57,10 @@
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(260, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(304, 309);
+            this.groupBox1.Size = new System.Drawing.Size(304, 250);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login Page";
-            // 
-            // btn_exit
-            // 
-            this.btn_exit.BackColor = System.Drawing.Color.White;
-            this.btn_exit.FlatAppearance.BorderSize = 0;
-            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_exit.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.ForeColor = System.Drawing.Color.Black;
-            this.btn_exit.Image = global::Kalta_project.Properties.Resources.icons8_fire_exit_24;
-            this.btn_exit.Location = new System.Drawing.Point(223, 270);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(75, 33);
-            this.btn_exit.TabIndex = 10;
-            this.btn_exit.Text = "EXIT";
-            this.btn_exit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_exit.UseVisualStyleBackColor = false;
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // lbl_info_login
             // 
@@ -158,7 +139,7 @@
             this.panel_login_bg.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_login_bg.Location = new System.Drawing.Point(0, 0);
             this.panel_login_bg.Name = "panel_login_bg";
-            this.panel_login_bg.Size = new System.Drawing.Size(254, 326);
+            this.panel_login_bg.Size = new System.Drawing.Size(254, 266);
             this.panel_login_bg.TabIndex = 9;
             // 
             // label1
@@ -166,7 +147,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label1.Location = new System.Drawing.Point(12, 57);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(215, 177);
             this.label1.TabIndex = 9;
@@ -176,7 +157,7 @@
             // 
             this.lbl_copyright.AutoSize = true;
             this.lbl_copyright.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_copyright.Location = new System.Drawing.Point(19, 265);
+            this.lbl_copyright.Location = new System.Drawing.Point(19, 240);
             this.lbl_copyright.Name = "lbl_copyright";
             this.lbl_copyright.Size = new System.Drawing.Size(190, 13);
             this.lbl_copyright.TabIndex = 7;
@@ -187,11 +168,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Green;
-            this.ClientSize = new System.Drawing.Size(573, 326);
+            this.ClientSize = new System.Drawing.Size(573, 266);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel_login_bg);
             this.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "login_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -216,7 +197,6 @@
         private System.Windows.Forms.Label lbl_password;
         private System.Windows.Forms.TextBox txt_user_login;
         private System.Windows.Forms.Label lbl_username;
-        private System.Windows.Forms.Button btn_exit;
     }
 }
 
