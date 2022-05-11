@@ -16,7 +16,6 @@ C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debu
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.pdb
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\bin\Debug\Kalta_project.exe
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\bin\Debug\Kalta_project.pdb
-C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.dashboard.resources
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.login_form.resources
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.Properties.Resources.resources
@@ -24,3 +23,4 @@ C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debu
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.user_controls.inventory_uc.resources
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.user_controls.management_uc.resources
 C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\enoysx\kalta_software\Kalta_project\obj\Debug\Kalta_project.csprojResolveAssemblyReference.cache

@@ -28,103 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.lbl_inventory = new System.Windows.Forms.Label();
+            this.btn_PO_kantor = new System.Windows.Forms.Button();
+            this.btn_BPK_proyek = new System.Windows.Forms.Button();
+            this.btn_BPK_kantor = new System.Windows.Forms.Button();
+            this.brn_breakdown_PO = new System.Windows.Forms.Button();
+            this.btn_breakdown_RAP = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // lbl_inventory
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(45, 43);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lbl_inventory.AutoSize = true;
+            this.lbl_inventory.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_inventory.Location = new System.Drawing.Point(43, 23);
+            this.lbl_inventory.Name = "lbl_inventory";
+            this.lbl_inventory.Size = new System.Drawing.Size(145, 39);
+            this.lbl_inventory.TabIndex = 6;
+            this.lbl_inventory.Text = "Inventory";
             // 
-            // button2
+            // btn_PO_kantor
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(152, 43);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_PO_kantor.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_PO_kantor.Location = new System.Drawing.Point(50, 237);
+            this.btn_PO_kantor.Name = "btn_PO_kantor";
+            this.btn_PO_kantor.Size = new System.Drawing.Size(131, 23);
+            this.btn_PO_kantor.TabIndex = 11;
+            this.btn_PO_kantor.Text = "PO KANTOR";
+            this.btn_PO_kantor.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_BPK_proyek
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(45, 89);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_BPK_proyek.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BPK_proyek.Location = new System.Drawing.Point(202, 169);
+            this.btn_BPK_proyek.Name = "btn_BPK_proyek";
+            this.btn_BPK_proyek.Size = new System.Drawing.Size(131, 23);
+            this.btn_BPK_proyek.TabIndex = 10;
+            this.btn_BPK_proyek.Text = "BPK PROYEK";
+            this.btn_BPK_proyek.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_BPK_kantor
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(152, 89);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_BPK_kantor.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BPK_kantor.Location = new System.Drawing.Point(50, 169);
+            this.btn_BPK_kantor.Name = "btn_BPK_kantor";
+            this.btn_BPK_kantor.Size = new System.Drawing.Size(131, 23);
+            this.btn_BPK_kantor.TabIndex = 9;
+            this.btn_BPK_kantor.Text = "BPK KANTOR";
+            this.btn_BPK_kantor.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // brn_breakdown_PO
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(45, 135);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.brn_breakdown_PO.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.brn_breakdown_PO.Location = new System.Drawing.Point(202, 97);
+            this.brn_breakdown_PO.Name = "brn_breakdown_PO";
+            this.brn_breakdown_PO.Size = new System.Drawing.Size(131, 23);
+            this.brn_breakdown_PO.TabIndex = 8;
+            this.brn_breakdown_PO.Text = "BREAKDOWN PO";
+            this.brn_breakdown_PO.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btn_breakdown_RAP
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(152, 135);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_breakdown_RAP.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_breakdown_RAP.Location = new System.Drawing.Point(50, 97);
+            this.btn_breakdown_RAP.Name = "btn_breakdown_RAP";
+            this.btn_breakdown_RAP.Size = new System.Drawing.Size(131, 23);
+            this.btn_breakdown_RAP.TabIndex = 7;
+            this.btn_breakdown_RAP.Text = "BREAKDOWN RAP";
+            this.btn_breakdown_RAP.UseVisualStyleBackColor = true;
             // 
             // inventory_uc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_PO_kantor);
+            this.Controls.Add(this.btn_BPK_proyek);
+            this.Controls.Add(this.btn_BPK_kantor);
+            this.Controls.Add(this.brn_breakdown_PO);
+            this.Controls.Add(this.btn_breakdown_RAP);
+            this.Controls.Add(this.lbl_inventory);
             this.Name = "inventory_uc";
-            this.Size = new System.Drawing.Size(526, 262);
+            this.Size = new System.Drawing.Size(542, 317);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label lbl_inventory;
+        private System.Windows.Forms.Button btn_PO_kantor;
+        private System.Windows.Forms.Button btn_BPK_proyek;
+        private System.Windows.Forms.Button btn_BPK_kantor;
+        private System.Windows.Forms.Button brn_breakdown_PO;
+        private System.Windows.Forms.Button btn_breakdown_RAP;
     }
 }
