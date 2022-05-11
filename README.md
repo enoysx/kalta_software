@@ -1,4 +1,5 @@
-# Kalta Software Project Magang
+# Kalta Software 
+### Project Magang
 
 *Software* ini dibuat untuk membantu management PT. KALTA CITRA UTAMA dalam mengolah data biaya proyek. Dalam rangka magang penelitian.
 
