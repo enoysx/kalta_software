@@ -6,9 +6,9 @@
 Dalam rangka magang penelitian.
 
 
-| Nama | Fakultas | Jurusan | Semester | Tahun | Periode Magang |
-| ---- | -------- | ------- | -------- | ----- | --- |
-| Dandy Syahputra | Ilmu Komputer | Sistem Informasi | 6 | 2022 | April 2022 - |
+| Nama | Universitas | Fakultas | Jurusan | Semester | Tahun | Periode Magang |
+| ---- | --- | -------- | ------- | -------- | ----- | --- |
+| Dandy Syahputra | Universitas Bung Karno | Ilmu Komputer | Sistem Informasi | 6 | 2022 | April 2022 - |
 
 
 
