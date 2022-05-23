@@ -22,3 +22,11 @@ Kunjungi <a href="https://kalta.co.id/"> Kalta.co.id <a/>
 
 Status  :   Masih dalam tahap penelitian, perancangan database dan sedikit membuat *interface* sebagai gambaran.
 
+  
+**12 Mei 2022**
+  
+Status  :   -
+  
+**13 Mei 2022**
+
+Status  :   -
