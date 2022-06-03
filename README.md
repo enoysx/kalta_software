@@ -30,3 +30,7 @@ Status  :   -
 **13 Mei 2022**
 
 Status  :   -
+
+**3 Juni 2022**
+  
+Status  : Batal.
